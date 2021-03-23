@@ -24,7 +24,7 @@ function res = Substitution_rate(sequences_input)
     for p = 1:1:protein_lenth 
         protein_reference = sequences_input(1).Sequence(p);
         for i = 2:1:sequence_nums    
-            AA_i = sequences_input(i).Sequence(p);  %第s条序列的第p位点的氨基酸
+            AA_i = sequences_input(i).Sequence(p); 
             valid_i = check_AA(AA_i);
             if valid_i == 0
                 %disp('Warning invalid protein');
