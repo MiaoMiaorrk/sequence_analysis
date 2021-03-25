@@ -1,3 +1,4 @@
+%To extracted the nucleotide regions of 26 viral proteins.
 close all;clear all;clc;
 
 x=fastaread('./mafft_output.fasta');
